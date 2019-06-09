@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'webfont';
+    src: url('zcoolgaoduanhei151105.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+    cursor: url('../resources/Arrow.cur'), auto;
+    background-size:100px 100px;
+    color: #FFF;
+    font-family: "思源黑体","Source Han Sans","微软雅黑","Microsoft YaHei","Hiragino Sans GB","STHeiti Light","SimHei";
+}
+a:link {
+	color: #00FFFF;
+	text-decoration: none;
+    cursor: url('../resources/hand.cur'), auto;
+}
+a:visited {
+	text-decoration: none;
+	color: #00FFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #00FFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #00FFFF;
+}
+.linkbtn {
+    color: #00FFFF;
+	text-decoration: none;
+    cursor: url('../resources/hand.cur'), auto;
+}
+#titlebox {
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: transparent;
+}
+#title {
+    height: 80px;
+    background: url("../resources/yashititle2.gif") no-repeat center center;
+    background-size: 300px 80px;
+    align-content: center;
+    overflow: hidden;
+    font-size: 38pt;
+    color: transparent;
+    line-height: 80px;
+}
+#subtitle{
+    font-family: 'webfont';
+    cursor: url('../resources/hand.cur'), auto;
+}
+.menu {
+    position: fixed;
+    width: 250px;
+    height: 50px;
+    text-align: left;
+    /*background-color: #FE99CC;*/
+}
+.menu a {
+	color: #FFF;
+	text-decoration: none;
+}
+@media screen and (max-width: 550px) {
+    #mainmenu {
+        top: 10px;
+        left: 10px;
+    }
+    #submenu {
+        top: 60px;
+        left: 10px;
+    }
+}
+@media screen and (min-width: 551px) {
+    #mainmenu {
+        top: 10px;
+        left: 10px;
+    }
+    #submenu {
+        top: 10px;
+        left: 250px;
+    }
+}
+.menu span {
+    font-family: 'webfont';
+    text-align: center;
+    width: 80px;
+    height: 100%;
+    text-shadow:0px 0px 5px #c46997;
+    float: left;
+}
+.menu span:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu h1 {
+    font-size: 20pt;
+    line-height: 0px;
+}
+.menu h2 {
+    font-size: 12pt;
+    line-height: 0px;
+}
+#foot {
+    user-select: none;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    font-size: 9pt;
+    color: lightgray;
+}
+#foot:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#yashipage {
+    z-index: 2;
+    background-color: #000;
+}
