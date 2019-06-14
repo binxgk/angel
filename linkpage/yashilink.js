@@ -31,7 +31,7 @@ function loaddata(data) {
     var contents = $("#contents");
     var chtml = "";
     $.each(data, function(i, items) {
-        chtml = chtml+'<div id="webview'+i+'" class="webview" style="background-image:url'+items[4]'"><div id="urlinfo'+i+'" class="urlinfo" style="opacity:0">'+items[2]+'</div><div class="infobtnbg"><div id="infobtn'+i+'" class="infobtn"><a href="'+items[3]+'">ⓘ</a></div></div><div class="webinfo"><h1>'+items[0]+'</h1><h2>'+items[1]+'</h2><h3>'+items[5]+'</h3></div></div>';
+        chtml = chtml+'<div id="webview'+i+'" class="webview" style="background-image:url('')'+items[4]'"><div id="urlinfo'+i+'" class="urlinfo" style="opacity:0">'+items[2]+'</div><div class="infobtnbg"><div id="infobtn'+i+'" class="infobtn"><a href="'+items[3]+'">ⓘ</a></div></div><div class="webinfo"><h1>'+items[0]+'</h1><h2>'+items[1]+'</h2><h3>'+items[5]+'</h3></div></div>';
     });
     $("#contents").html(chtml);
     $.each(data, function(i, items) {
