@@ -136,7 +136,7 @@ document.addEventListener("visibilitychange", function () {
         nyarukoplayer_titlelrc = true;
     } else  {
         nyarukoplayer_titlelrc = false;
-        document.title = "神楽坂雅詩的个人网站 - 神楽坂雅詩的小世界";
+        document.title = "氷咲の个人网站 - 冰の森";
     }
 }, false);
 function timer_subtitle_start(){  
